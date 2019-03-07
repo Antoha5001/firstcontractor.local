@@ -22,11 +22,47 @@ include('includes/head.php');
             </div>
         </div>
     </div>
-    <script async defer
-            src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCe3SOacWSnAy63LQAheWP2s7B9I6-EU48&callback=initMap">
+    <script type="text/javascript">
+        // Функция ymaps.ready() будет вызвана, когда
+        // загрузятся все компоненты API, а также когда будет готово DOM-дерево.
+        (function () {
+            document.addEventListener("DOMContentLoaded", function () {
+                ymaps.ready(init);
+                function init(){
+                    // Создание карты.
+
+                    var myMap = new ymaps.Map("map", {
+                        // Координаты центра карты.
+                        // Порядок по умолчанию: «широта, долгота».
+                        // Чтобы не определять координаты центра карты вручную,
+                        // воспользуйтесь инструментом Определение координат.
+                        center: [53.34476803, 83.75616299],
+                        // Уровень масштабирования. Допустимые значения:
+                        // от 0 (весь мир) до 19.
+                        zoom: 17,
+                        controls: []
+                    });
+
+                    var myPlacemark = new ymaps.Placemark(
+                        [53.34476803, 83.75616299], {
+                        // iconContent: "123"
+                        }, {
+                        preset: 'islands#redIcon'
+                    });
+                    myMap.geoObjects.add(myPlacemark);
+                }
+            })
+        })();
+
     </script>
-    <script src="script/google_map.js"></script>
+<!--    <script async defer-->
+<!--            src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCe3SOacWSnAy63LQAheWP2s7B9I6-EU48&callback=initMap">-->
+<!--    </script>-->
+<!--    <script src="script/google_map.js"></script>-->
 </section>
+
+<script src="https://api-maps.yandex.ru/2.1/?apikey=1b326321-9fd0-4a87-9671-211444121920&lang=ru_RU" type="text/javascript">
+</script>
 </div>
 </div>
 
