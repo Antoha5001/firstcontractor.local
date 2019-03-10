@@ -2,7 +2,9 @@
   "name": "myproject",
   "version": "1.0.0",
   "description": "My GULP project",
-  "dependencies": {},
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  },
   "devDependencies": {
     "@babel/core": "^7.3.4",
     "@babel/preset-env": "^7.3.4",

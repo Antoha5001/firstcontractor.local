@@ -13,19 +13,21 @@ $(document).ready(function () {
 		autoPlay: 5000,
 		initialIndex: 1,
 	});
-	$("#bottom_form").submit(function () {
-		var $this = $(this),
-			form_data = $this.serialize();
-		$.ajax({
-			type: "POST",
-			url: "/assets/templates/script/form.php",
-			data: form_data,
-			success: function () {
-				//console.log("123");
-				alert("Ваше сообщение отправленно!");
-			}
-		});
-	});
+
+
+	// $("#bottom_form").submit(function () {
+	// 	var $this = $(this),
+	// 		form_data = $this.serialize();
+	// 	$.ajax({
+	// 		type: "POST",
+	// 		url: "/assets/templates/script/form.php",
+	// 		data: form_data,
+	// 		success: function () {
+	// 			//console.log("123");
+	// 			alert("Ваше сообщение отправленно!");
+	// 		}
+	// 	});
+	// });
 
 
 	//Верхнее меню
