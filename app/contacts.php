@@ -18,7 +18,7 @@ include('includes/head.php');
                 <p>
                     <span>Алтайский край, г. Барнаул, <br />ул. Южные Мастерские, 14 Б</span>
                 </p>
-                <div class="map" id="map"></div>
+                <div class="map-contacts" id="map"></div>
             </div>
         </div>
     </div>

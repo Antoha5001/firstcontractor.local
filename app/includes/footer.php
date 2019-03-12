@@ -39,6 +39,8 @@
 <script src="common/scroll.js"></script>
 <script src="common/services/slick.min.js"></script>
 <script src="common/services/jquery.fancybox.min.js"></script>
+
+<script src="https://api-maps.yandex.ru/2.1/?apikey=1b326321-9fd0-4a87-9671-211444121920&lang=ru_RU" type="text/javascript">
 <script>
     "use strict";
     (function () {

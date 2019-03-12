@@ -44,7 +44,7 @@
                         <div class="col-12 col-lg-4">
                             <div class="header__top-cols_logo">
                                 <div class="">
-                                    <a href="/" class="header__logo"> <img src="images/" alt=""> </a>
+                                    <a href="/" class="header__logo"> <img src="images/PP_logo.svg" alt=""> </a>
                                 </div>
                             </div>
                         </div>
@@ -52,7 +52,7 @@
                         <!--Phone-->
                         <div class="col-12 col-lg-4">
                             <div class="header__top-cols_phone">
-                                <p class="header__phone">+7 (3852) 623030</p>
+                                <p class="header__phone">+7 (3852) 623399</p>
                                 <button class="header__button" id="header__button">Заказать звонок</button>
                             </div>
                         </div>
@@ -62,7 +62,7 @@
                                 <div class=" ">
                                     <p class="header__text header__addres">г. Барнаул
                                         <br/> ул. Южные Мастерские, д. 14 Б</p>
-                                    <a href="mailto:623344@mail.ru" class="header__text header__email">623344@mail.ru</a>
+                                    <a href="mailto:623344@mail.ru" class="header__text header__email">3852@623399.ru</a>
                                 </div>
                             </div>
                         </div>

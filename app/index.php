@@ -189,7 +189,57 @@ include('includes/banner_1000.php');
             <a href="#" class="development-button"><span>ПОДРОБНЕЕ</span></a>
         </div>
     </div>
-    </section>
+</section>
+<section class="section-map_container">
+    <div class="wrapper section-map_wrapper">
+        <div class="section-map_contacts">
+            <h2 class="section-map_title">КОНТАКТЫ:</h2>
+            <span class="section-map_label">АДРЕС</span>
+            <p class="section-map_paragraph">г. Барнаул,<br>
+                пр-кт Строителей, 43</p>
+            <span class="section-map_label">ТЕЛЕФОН</span>
+            <p class="section-map_paragraph section-map_paragraph__red"><span>+7 (3852)</span> 62-33-99
+            </p>
+            <span class="section-map_label">E-MAIL</span>
+            <p class="section-map_paragraph">3852@623399.ru</p>
+        </div>
+    </div>
+    <div id="map" class="section-map"></div>
+</section>
+<script type="text/javascript">
+    // Функция ymaps.ready() будет вызвана, когда
+    // загрузятся все компоненты API, а также когда будет готово DOM-дерево.
+    (function () {
+        document.addEventListener("DOMContentLoaded", function () {
+            ymaps.ready(init);
+            function init(){
+                // Создание карты.
+
+                var myMap = new ymaps.Map("map", {
+                    // Координаты центра карты.
+                    // Порядок по умолчанию: «широта, долгота».
+                    // Чтобы не определять координаты центра карты вручную,
+                    // воспользуйтесь инструментом Определение координат.
+                    center: [53.34476803, 83.75616299],
+                    // Уровень масштабирования. Допустимые значения:
+                    // от 0 (весь мир) до 19.
+                    zoom: 17,
+                    controls: []
+                });
+
+                var myPlacemark = new ymaps.Placemark(
+                    [53.34476803, 83.75616299], {
+                        // iconContent: "123"
+                    }, {
+                        preset: 'islands#redIcon'
+                    });
+                myMap.geoObjects.add(myPlacemark);
+            }
+        })
+    })();
+
+</script>
+
 </div>
 </div>
 
