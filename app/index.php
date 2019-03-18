@@ -2,9 +2,31 @@
 include('includes/head.php');
 ?>
 <?php
-include('includes/banner_1000.php');
+include('includes/banner_1920.php');
 ?>
-
+<script>
+    "use strict";
+    (function () {
+        window.addEventListener('DOMContentLoaded', init);
+        function init() {
+            const sliderMy = $('.top-slider');
+            if(sliderMy.length > 0){
+                // console.log(bigImg);
+            }
+            sliderMy.slick({
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: true,
+                dots: true,
+                fade: true,
+                autoplay: true,
+                prevArrow: '<button type="button" class="slick-prev"></button>',
+                nextArrow: '<button type="button" class="slick-next"></button>',
+                // appendDots: $(".top-slider_controls")
+            });
+        }
+    })();
+</script>
 <?php
 ?>
 <section class="container-fluid production-box">
@@ -13,7 +35,7 @@ include('includes/banner_1000.php');
             <!--Title-->
             <div class="col-12 ">
                 <div class="box-zagolovok">
-                    <a class="box-zagolovok__link" href="">Заголовок</a>
+                    <a class="box-zagolovok__link" href="">Наша продукция</a>
                 </div>
             </div>
 

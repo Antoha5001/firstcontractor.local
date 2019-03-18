@@ -4,15 +4,15 @@ $(document).ready(function () {
 		document.getElementsByClassName("header__logo")[0].classList.add('is-visibile');
 	}, 600);
 
-
-	$('.carousel').flickity({
-		// options
-		cellAlign: 'center',
-		contain: true,
-		wrapAround: true,
-		autoPlay: 5000,
-		initialIndex: 1,
-	});
+    //
+	// $('.carousel').flickity({
+	// 	// options
+	// 	cellAlign: 'center',
+	// 	contain: true,
+	// 	wrapAround: true,
+	// 	autoPlay: 5000,
+	// 	initialIndex: 1,
+	// });
 
 
 	// $("#bottom_form").submit(function () {

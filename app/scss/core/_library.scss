@@ -1,4 +1,19 @@
 
+.container_my {
+  min-width: 320px;
+  max-width: 100%;
+  padding: 0 0;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+.wrap_my {
+
+  min-width: 320px;
+  max-width: 1200px;
+  padding: 0 15px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
 $phone: 575px;
 $landPhone: 767px;
 $planshet: 991px;
@@ -24,7 +39,7 @@ $gray: #dbdbdb;
 $dark-gray: #6f6f6f;
 $black: #333333;
 $dark-black: #222222;
-$red: #D72615;
+$red: rgb(215, 38, 21);
 $light-red: #FF8E83;
 
 $transition: opacity 1s;

@@ -1,0 +1,109 @@
+/*CARUSEL*/
+.carousel {
+  width: 100%;
+  /* full width */
+  background: white;
+  height: 360px;
+  margin: 0;
+  // @include bradius(7px);
+  //box-shadow: 0 0px 5px $dark-gray;
+  //border: 1px solid black;
+  overflow: hidden;
+  height: auto;
+  min-height: 360px;
+  @media (max-width: $planshet) {
+    margin: 0;
+  }
+
+  &-cell {
+    width: 100%;
+    /* full width */
+    height: 360px;
+    @media (max-width: $planshet) {
+      min-height: 360px;
+      height: auto;
+    }
+  }
+
+  &_text-block {
+    padding: 20px;
+    width: 50%;
+    /* full width */
+    height: 360px;
+    float: left;
+    //@include border();
+    @media (max-width: $planshet) {
+      float: none;
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  &__title {
+    font-weight: 800;
+    margin-top: 20px;
+    font-size: 2.3em;
+    line-height: 1.2em;
+    @media (max-width: $planshet) {
+      margin-top: 0;
+      text-align: center;
+      font-size: 2em;
+    }
+
+    &_orange {
+      color: $red;
+      @media (max-width: $planshet) {
+      }
+    }
+  }
+
+  &__img-block {
+    display: flex;
+
+    width: 50%;
+    //@include border();
+    height: 360px;
+    padding: 20px;
+    float: right;
+    justify-content: center;
+    //background: #ccc;
+    @media (max-width: $planshet) {
+      float: none;
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+  }
+
+  &__img {
+    //max-height: 100%;
+    max-width: 476px;
+    @media (max-width: $planshet) {
+      display: block;
+      max-width: 476px;
+      margin: auto;
+    }
+    @media (max-width: $phone) {
+      max-width: 100%;
+      height: auto;
+      margin: auto;
+      margin: 0;
+    }
+  }
+
+  &__paragraph {
+    margin: 20px 0 0;
+    font-size: 1.3em;
+    line-height: 1.2em;
+    @media (max-width: $planshet) {
+      margin: 1em 0 0;
+    }
+    @media (max-width: $phone) {
+      display: none;
+    }
+  }
+}
+
+.flickity-page-dots {
+  bottom: 10px;
+}

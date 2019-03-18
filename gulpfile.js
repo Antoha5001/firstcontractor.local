@@ -25,7 +25,7 @@ const myScripts = [
     'app/script/modernizr.js',
     'app/script/jquery.inputmask.bundle.min.js',
     'app/script/tingle.min.js',
-    'app/script/flickity.pkgd.min.js',
+    // 'app/script/flickity.pkgd.min.js',
     'app/script/bootstrap.min.js',
 	'app/script/parallax.js',
     'app/script/myscript.js'
@@ -66,12 +66,19 @@ function defaultTask() {
 gulp.task('serve', function(){
 
 	browserSync.init({
-        proxy: srv
+        proxy: srv,
+        browser: "chrome"
     });
 	
 	// gulp.watch('app/scss/**/*.scss',gulp.parallel('style'));
 	// gulp.watch('./app/scss/**/*.scss',{usePolling: true} , gulp.series(styles));
-	watch(['./app/scss/*.scss','./app/scss/blocs/*.scss','./app/scss/libs/*.scss'],{usePolling: true},styles);
+	watch([
+	    './app/scss/*.scss',
+        './app/scss/blocs/*.scss',
+        './app/scss/pages/*.scss',
+        './app/scss/libs/*.scss',
+        './app/scss/core/*.scss'],{usePolling: true},styles);
+
 	gulp.watch('app/script/**/*.js', gulp.series('script')).on('change', browserSync.reload);
 
 	// gulp.watch('app/**/*.php').on('change', browserSync.reload);

@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html lang="ru">
 
 <head>
     <title>Заголовок2</title>
@@ -10,10 +10,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <!--    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/mystyle.min.css" media="screen">
     <link rel="stylesheet" href="css/services/slick.css" media="screen">
     <link rel="stylesheet" href="css/services/slick_my.css" media="screen">
     <link rel="stylesheet" href="css/jquery.fancybox.min.css" media="screen">
+    <link rel="stylesheet" href="css/mystyle.min.css" media="screen">
 
     <link rel="icon" href="images/favicon.png" type="image/x-icon">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">

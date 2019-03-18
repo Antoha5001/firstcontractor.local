@@ -1,25 +1,29 @@
-@import '_reset';
-@import "library";
+@import 'core/reset';
+@import "core/library";
 @import '_fonts';
 @import "libs/bootstrap";
+
 @import "_normalize";
 //@import "_setka";
 @import "blocs/header";
+//@import "blocs/top_banner_old";
+@import "blocs/top_banner_1920";
 @import "_menu";
 @import "blocs/breadcrumb";
 @import "shtamps";
 @import "_scroller";
 @import "_tingle.min";
 @import "_modal";
-@import "_flickity";
+//@import "_flickity";
 @import "blocs/production";
 @import "blocs/development";
 @import "blocs/map-section";
 @import "big-image";
-
+@import "pages/banner_fullstack";
 
 
 * {
+
   margin: 0;
   padding: 0;
   border: 0;
@@ -33,7 +37,7 @@ a {
 }
 
 a:hover {
-  color: $orange;
+  color: $red;
   }
 
 .conteiner,
@@ -181,7 +185,7 @@ h5 {
     list-style: lower-latin;
   }
   h2 {
-    color: $orange;
+    color: $red;
     font-size: 1.5rem;
     line-height: 1.4;
   }
@@ -427,7 +431,7 @@ h5 {
     display: block;
     width: 100%;
     height: 50px;
-    background: $orange;
+    background: $red;
   }
 }
 
@@ -473,115 +477,6 @@ div.pagination {
   }
 }
 
-/*CARUSEL*/
-.carousel {
-  width: 100%;
-  /* full width */
-  background: white;
-  height: 360px;
-  margin: 0;
-  // @include bradius(7px);
-  //box-shadow: 0 0px 5px $dark-gray;
-  //border: 1px solid black;
-  overflow: hidden;
-  height: auto;
-  min-height: 360px;
-  @media (max-width: $planshet) {
-    margin: 0;
-  }
-
-  &-cell {
-    width: 100%;
-    /* full width */
-    height: 360px;
-    @media (max-width: $planshet) {
-      min-height: 360px;
-      height: auto;
-    }
-  }
-
-  &_text-block {
-    padding: 20px;
-    width: 50%;
-    /* full width */
-    height: 360px;
-    float: left;
-    //@include border();
-    @media (max-width: $planshet) {
-      float: none;
-      width: 100%;
-      height: auto;
-    }
-  }
-
-  &__title {
-    font-weight: 800;
-    margin-top: 20px;
-    font-size: 2.3em;
-    line-height: 1.2em;
-    @media (max-width: $planshet) {
-      margin-top: 0;
-      text-align: center;
-      font-size: 2em;
-    }
-
-    &_orange {
-      color: $red;
-      @media (max-width: $planshet) {
-      }
-    }
-  }
-
-  &__img-block {
-    display: flex;
-
-    width: 50%;
-    //@include border();
-    height: 360px;
-    padding: 20px;
-    float: right;
-    justify-content: center;
-    //background: #ccc;
-    @media (max-width: $planshet) {
-      float: none;
-      width: 100%;
-      height: auto;
-      display: block;
-    }
-  }
-
-  &__img {
-    //max-height: 100%;
-    max-width: 476px;
-    @media (max-width: $planshet) {
-      display: block;
-      max-width: 476px;
-      margin: auto;
-    }
-    @media (max-width: $phone) {
-      max-width: 100%;
-      height: auto;
-      margin: auto;
-      margin: 0;
-    }
-  }
-
-  &__paragraph {
-    margin: 20px 0 0;
-    font-size: 1.3em;
-    line-height: 1.2em;
-    @media (max-width: $planshet) {
-      margin: 1em 0 0;
-    }
-    @media (max-width: $phone) {
-      display: none;
-    }
-  }
-}
-
-.flickity-page-dots {
-  bottom: 10px;
-}
 
 
 /*forms*/
@@ -641,7 +536,7 @@ div.pagination {
 }
 
 .form-box__submit {
-  background: $orange;
+  background: $red;
   border-bottom: 3px solid $dark-orange;
   padding: 0 40px;
   height: 55px;
@@ -1002,7 +897,7 @@ div.pagination {
 
 .zagolovok_orange {
 
-  color: $orange;
+  color: $red;
   @media (max-width: $planshet) {
   }
 }
@@ -1118,7 +1013,7 @@ div.pagination {
   vertical-align: middle;
   height: 50px;
   padding: 7px 15px;
-  background: $orange;
+  background: $red;
   @include bradius(7px);
   margin: auto;
   text-decoration: none;
@@ -1127,7 +1022,7 @@ div.pagination {
 
 .box-zagolovok__link:hover {
   text-decoration: underline;
-  background: $dark-orange;
+  background: darken($red, 15%);
   color: #fff;
 }
 
@@ -1255,7 +1150,7 @@ div.pagination {
   text-align: center;
   //margin: 20px auto 0;
   display: block;
-  color: $orange;
+  color: $red;
   font-weight: bold;
   text-decoration: none;
   &:hover {
@@ -1270,7 +1165,7 @@ div.pagination {
 }
 
 .news__title a {
-  color: $orange;
+  color: $red;
   text-decoration: none;
 }
 
@@ -1283,7 +1178,7 @@ div.pagination {
   line-height: 1.1em;
   text-align: left;
   margin: 0;
-  color: $orange;
+  color: $red;
   @media (max-width: $planshet) {
     text-align: center;
   }
@@ -1317,7 +1212,7 @@ div.pagination {
   padding: 5px 10px;
   color: white;
   text-decoration: none;
-  background: $orange;
+  background: $red;
   display: inline-block;
   @include bradius(25px);
   transition: all 1s;
@@ -1329,7 +1224,7 @@ div.pagination {
   padding: 5px 15px;
   color: white;
   text-decoration: none;
-  background: $orange;
+  background: $red;
   display: block;
   @include bradius(25px);
   transition: all 1s;
@@ -1461,7 +1356,7 @@ div.pagination {
 }
 
 .link_orange {
-  color: $orange;
+  color: $red;
   text-decoration: none;
   font-weight: bold;
 }
@@ -1471,7 +1366,7 @@ div.pagination {
 }
 
 .link:hover {
-  color: $orange;
+  color: $red;
 }
 
 .is-visibile {
@@ -1490,7 +1385,7 @@ div.pagination {
 }
 
 .contacts_page_email {
-  color: $orange;
+  color: $red;
 }
 
 .contacts_page_label {
@@ -1502,7 +1397,7 @@ div.pagination {
 
 .full-stack__wrapper {
   height: 465px;
-  background-color: $orange;
+  background-color: $red;
   background-image: url("../images/full-stack__wrapper.jpg");
   border-radius: 2px;
   margin-bottom: 40px;

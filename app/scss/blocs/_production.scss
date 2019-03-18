@@ -1,5 +1,6 @@
 /*.production*/
 .production-box {
+  margin-top: 45px;
   min-height: 350px;
   background: {
     image: url('../images/port_bg2.jpg');
@@ -83,7 +84,7 @@
 .production__title-box {
   position: absolute;
   bottom: 0;
-  background: rgba(255, 51, 0, .8);
+  background: rgba(215, 38, 21, .8);
   height: 40px;
   line-height: 35px;
   width: 100%;
