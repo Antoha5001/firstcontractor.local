@@ -1,12 +1,12 @@
 <section class="container_my top-slider_container">
-    <div class="top-slider">
+    <div class="top-slider webp">
 
         <div class="top-slider_element">
             <div class="top-slider_image top-slider_image__print">
                 <div class="wrap_my top-slider_wrap">
                     <h2 class="top-slider__title">ОФСЕТНАЯ ПЕЧАТЬ ФОРМАТА А2 <br>
                         НА НЕМЕЦКОМ БОРУДОВАНИИ </h2>
-                    <p class="top-slider__paragraph">Печатные машины Heidelberg — это высокое качество при большой производительности, экономическая эффективность малых тиражей, сокращение времени переналадки, надежность производства благодаря новейшим технологиям</p>
+                    <p class="top-slider__paragraph">• высокое качество при большой производительности <br>• экономическая эффективность малых тиражей <br>• сокращение времени переналадки <br>• надежность производства благодаря новейшим технологиям</p>
                 </div>
                 <div class="top-slider_controls"></div>
             </div>

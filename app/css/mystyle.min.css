@@ -8032,7 +8032,15 @@ textarea {
   height: 440px;
   z-index: 0; }
 
-.top-slider_image__print {
+.top-slider.webp .top-slider_image__print {
+  height: 100%;
+  background-image: url("../images/banner.webp");
+  display: flex;
+  z-index: 0;
+  background-size: cover;
+  background-position: 50% 0; }
+
+.top-slider.no-webp .top-slider_image__print {
   height: 100%;
   background-image: url("../images/banner.jpg");
   display: flex;
@@ -8042,11 +8050,60 @@ textarea {
 
 .top-slider_image_etiket {
   height: 100%;
-  background-image: url("../images/banner-2.jpg");
   display: flex;
   z-index: 0;
   background-size: cover;
   background-position: 50% 0; }
+
+.top-slider.webp .top-slider_image_etiket {
+  background-image: url("../images/banner-2.webp"); }
+
+.top-slider.no-webp .top-slider_image_etiket {
+  background-image: url("../images/banner-2.jpg"); }
+
+@media (max-width: 1199px) {
+  .top-slider.webp .top-slider_image__print {
+    background-image: url("../images/banner-1200.webp");
+    background-position: 0 0; }
+  .top-slider.no-webp .top-slider_image__print {
+    background-image: url("../images/banner-1200.jpg");
+    background-position: 0 0; }
+  .top-slider.webp .top-slider_image_etiket {
+    background-image: url("../images/banner2-1200.webp");
+    background-position: 0 0; }
+  .top-slider.no-webp .top-slider_image_etiket {
+    background-image: url("../images/banner2-1200.jpg");
+    background-position: 0 0; } }
+
+@media (max-width: 991px) {
+  .top-slider.webp .top-slider_image__print {
+    background-image: url("../images/banner-991.webp"); }
+  .top-slider.no-webp .top-slider_image__print {
+    background-image: url("../images/banner-991.jpg"); }
+  .top-slider.webp .top-slider_image_etiket {
+    background-image: url("../images/banner2-991.webp"); }
+  .top-slider.no-webp .top-slider_image_etiket {
+    background-image: url("../images/banner2-991.jpg"); } }
+
+@media (max-width: 768px) {
+  .top-slider.webp .top-slider_image__print {
+    background-image: url("../images/banner-768.webp"); }
+  .top-slider.no-webp .top-slider_image__print {
+    background-image: url("../images/banner-768.jpg"); }
+  .top-slider.webp .top-slider_image_etiket {
+    background-image: url("../images/banner2-768.webp"); }
+  .top-slider.no-webp .top-slider_image_etiket {
+    background-image: url("../images/banner2-768.jpg"); } }
+
+@media (max-width: 540px) {
+  .top-slider.webp .top-slider_image__print {
+    background-image: url("../images/banner-540.webp"); }
+  .top-slider.no-webp .top-slider_image__print {
+    background-image: url("../images/banner-540.jpg"); }
+  .top-slider.webp .top-slider_image_etiket {
+    background-image: url("../images/banner2-540.webp"); }
+  .top-slider.no-webp .top-slider_image_etiket {
+    background-image: url("../images/banner2-540.jpg"); } }
 
 .top-slider_wrap {
   position: relative;
@@ -8055,20 +8112,45 @@ textarea {
   flex-direction: column;
   align-items: flex-start;
   margin: 0 auto;
-  padding: 0;
+  padding: 0 15px;
   width: 100%; }
 
 .top-slider__title {
   font-size: 33px;
+  line-height: 1.2;
   color: white;
   margin: 0;
   padding: 0;
-  margin-top: 100px;
+  margin-top: 80px;
   text-transform: uppercase; }
 
 .top-slider__paragraph {
   max-width: 48%;
-  color: #FFD1A6; }
+  color: #FFD1A6;
+  text-align: left; }
+
+@media (max-width: 1199px) {
+  .top-slider__title {
+    font-size: 37px;
+    margin-top: 50px; }
+  .top-slider__paragraph {
+    font-size: 18px; } }
+
+@media (max-width: 991px) {
+  .top-slider__title {
+    margin-top: 30px; }
+  .top-slider__paragraph {
+    font-size: 18px; } }
+
+@media (max-width: 768px) {
+  .top-slider__title {
+    font-size: 30px; }
+  .top-slider__paragraph {
+    max-width: 400px; } }
+
+@media (max-width: 540px) {
+  .top-slider__paragraph {
+    max-width: 100%; } }
 
 .top-slider_container .slick-prev, .top-slider_container .slick-next {
   position: absolute;
@@ -8127,6 +8209,18 @@ textarea {
   height: 500px;
   background-position: 100% 100%; }
 
+@media (max-width: 991px) {
+  .top-slider_container .slick-prev {
+    left: auto;
+    right: 220px; }
+  .top-slider_container .slick-next {
+    left: auto;
+    right: 60px; }
+  .top-slider_container .top-slider_controls {
+    width: 280px;
+    right: 0;
+    bottom: 0; } }
+
 /*кнопки*/
 .top-slider ul {
   display: flex;
@@ -8163,6 +8257,11 @@ textarea {
   background-color: white;
   width: 8px;
   height: 8px; }
+
+@media (max-width: 991px) {
+  .top-slider ul {
+    left: auto;
+    right: 120px; } }
 
 /*TOP-MENU-SMALL*/
 .top-menu-small {

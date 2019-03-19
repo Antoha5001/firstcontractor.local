@@ -22,7 +22,7 @@ const srv = 'firstcontractor.local';
 const myScripts = [
     'app/script/jquery.min.js',
     'app/script/jquery.validate.min.js',
-    'app/script/modernizr.js',
+    'app/script/modernizr-webp.js',
     'app/script/jquery.inputmask.bundle.min.js',
     'app/script/tingle.min.js',
     // 'app/script/flickity.pkgd.min.js',

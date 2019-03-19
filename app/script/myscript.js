@@ -1,4 +1,15 @@
 $(document).ready(function () {
+
+    Modernizr.on('webp', function(result) {
+        if (result) {
+
+        } else {
+            var topSlyder = document.querySelector(".top-slider");
+            topSlyder.classList.remove("webp");
+            topSlyder.classList.add("no-webp");
+        }
+    });
+
 	//alert($(".news__small-image").height());
 	setTimeout(function () {
 		document.getElementsByClassName("header__logo")[0].classList.add('is-visibile');
@@ -156,10 +167,10 @@ $(document).ready(function () {
 	/*
 	* Modernizr
 	*/
-	if (!Modernizr.svg) {
-		$(".header__logo > img").attr("src", "images/logo.png");
-		$(".footer__logo > img").attr("src", "images/logo_white.png");
-	}
+	// if (!Modernizr.svg) {
+	// 	$(".header__logo > img").attr("src", "images/logo.png");
+	// 	$(".footer__logo > img").attr("src", "images/logo_white.png");
+	// }
 
 });
 /*
