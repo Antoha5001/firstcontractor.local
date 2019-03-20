@@ -8027,7 +8027,7 @@ textarea {
 .top-slider {
   position: relative; }
 
-.top-slider_element {
+.top-slider .top-slider_element {
   position: relative;
   height: 440px;
   z-index: 0; }
