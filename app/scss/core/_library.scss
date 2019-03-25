@@ -7,13 +7,30 @@
   margin: 0 auto;
 }
 .wrap_my {
-
   min-width: 320px;
   max-width: 1200px;
   padding: 0 15px;
   box-sizing: border-box;
   margin: 0 auto;
 }
+.wrap_my__content {
+  @media (max-width: 1199px) {
+	  max-width: 960px;
+	  padding: 0;}
+  @media (max-width: 991px) {
+	  max-width: 720px;
+	  padding: 0;
+  }
+  @media (max-width: 768px) {
+	  max-width: 540px;
+	  padding: 0;
+  }
+  @media (max-width: 576px) {
+	  padding: 0 15px;
+  }
+}
+
+
 $phone: 575px;
 $landPhone: 767px;
 $planshet: 991px;

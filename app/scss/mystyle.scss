@@ -1,15 +1,19 @@
 @import 'core/reset';
 @import "core/library";
-@import '_fonts';
-@import "libs/bootstrap";
 
-@import "_normalize";
+@import 'libs/fonts';
+@import "libs/bootstrap";
+@import "libs/normalize";
+
 //@import "_setka";
-@import "blocs/header";
+
+@import "header/header";
+@import "header/menu";
+@import "header/breadcrumb";
+@import "header/top_banner_1920";
 //@import "blocs/top_banner_old";
-@import "blocs/top_banner_1920";
-@import "_menu";
-@import "blocs/breadcrumb";
+
+@import "blocs/service";
 @import "shtamps";
 @import "_scroller";
 @import "_tingle.min";
@@ -17,9 +21,9 @@
 //@import "_flickity";
 @import "blocs/production";
 @import "blocs/development";
-@import "blocs/map-section";
-@import "big-image";
+@import "pages/big-image";
 @import "pages/banner_fullstack";
+@import "footer/map-section";
 
 
 * {
@@ -86,7 +90,7 @@ a {
 p {
   margin: 20px 0 0;
   @media (max-width: $planshet) {
-    text-align: justify;
+    //text-align: left;
   }
 }
 
@@ -151,6 +155,7 @@ h2,
 h3,
 h4,
 h5 {
+  font-family: 'Qanelas-web', sans-serif;
   font-weight: 800;
 }
 
@@ -171,7 +176,7 @@ h5 {
     //margin: 0;
     padding: 20px 20px 40px;
     border: 0;
-    text-align: justify;
+    //text-align: justify;
   }
   p {
     @media (max-width: $planshet) {
@@ -510,6 +515,7 @@ div.pagination {
   margin: auto;
   color: $blue;
   font-size: 1.2em;
+  font-family: 'Qanelas-web', sans-serif;
   line-height: 1.2em;
   font-weight: 800;
   @media (max-width: $planshet) {

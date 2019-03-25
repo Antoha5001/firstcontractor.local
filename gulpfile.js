@@ -76,6 +76,8 @@ gulp.task('serve', function(){
 	    './app/scss/*.scss',
         './app/scss/blocs/*.scss',
         './app/scss/pages/*.scss',
+        './app/scss/footer/*.scss',
+        './app/scss/header/*.scss',
         './app/scss/libs/*.scss',
         './app/scss/core/*.scss'],{usePolling: true},styles);
 

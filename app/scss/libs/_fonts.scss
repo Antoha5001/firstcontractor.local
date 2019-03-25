@@ -24,6 +24,15 @@
   url('../fonts/FiraSans-Bold.woff') format('woff'),
   url('../fonts/FiraSans-Bold.svg#OpenSans') format('svg');
 }
+@font-face{
+  font-family: 'Qanelas-web';
+  font-style: normal;
+  font-weight: 800;
+  src: url('../fonts/Qanelas-Black.eot'),
+  url('../fonts/Qanelas-Black.ttf') format("truetype"),
+  url('../fonts/Qanelas-Black.woff') format('woff');
+}
+
 
 /*TOP-MENU-SMALL*/
 .top-menu-small {

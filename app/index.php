@@ -132,33 +132,18 @@ include('includes/banner_1920.php');
             </div>
 
             <div class="col-12 col-lg-4">
-                <div class="full-stack__wrapper">
-                    <a href="#" class="full-stack__icon">
-                        <img src="images/photo-icons.svg" alt="">
-                    </a>
-                    <span class="full-stack__title">Предметная <br>фотосъёмка</span>
-                    <a href="#" class="full-stack__button">Подробнее</a>
-                </div>
+<!--                <div class="full-stack__wrapper">-->
+<!--                    <a href="#" class="full-stack__icon">-->
+<!--                        <img src="images/photo-icons.svg" alt="">-->
+<!--                    </a>-->
+<!--                    <span class="full-stack__title">Предметная <br>фотосъёмка</span>-->
+<!--                    <a href="#" class="full-stack__button">Подробнее</a>-->
+<!--                </div>-->
                 <div class="base-block base-block_news">
                     <div class="box-zagolovok">
                         <a class="box-zagolovok__link" href="">Новости</a>
-<!---->
+
                     </div>
-<!--                    <h3 class="news__title">-->
-<!--                        <a href="">Наш сайт открылся Наш сайт открылся</a>-->
-<!--                    </h3>-->
-<!--                    <div class="news__content">-->
-<!--                        <a href="#" class="news__small-image">-->
-<!--                            <img src="images/opening.jpg" alt="">-->
-<!--                        </a>-->
-<!--                        <p class="news__paragraph_modul">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit-->
-<!--                            voluptatum quisquam in et illum dolore ut blanditiis natus eaque voluptatem, voluptas dicta-->
-<!--                            quis expedita doloremque sint. Laborum earum placeat neque voluptas, et vel, impedit-->
-<!--                            suscipit </p>-->
-<!--                    </div>-->
-<!--                    <div class="news__button_modul">-->
-<!--                        <a class="news__link_modul" href="#">Узнать больше...</a>-->
-<!--                    </div>-->
                 </div>
             </div>
 
@@ -167,6 +152,42 @@ include('includes/banner_1920.php');
 
 
     </div>
+</section>
+<section class="service-section container_my">
+
+    <h2 class="service-title">Наши услуги</h2>
+    <div class="service-wrap wrap_my wrap_my__content ">
+        <div class="service-element">
+            <img class="service-element_image" src="images/services/foldmaster.jpg" alt="">
+            <div class="service-element_title-wrapper">
+                <h3 class="service-element_title">Фальцовка
+                </h3>
+            </div>
+            <div class="service-element_paragraph-wrapper">
+                <p class="service-element_options">30000 листов/час</p>
+                <p class="service-element_options">формат А3+</p>
+                <p class="service-element_paragraph">высококлассный <br>
+                    фальцевальный автомат <br>
+                    Multigraf FoldMaster 200 SM</p>
+            </div>
+        </div>
+        <div class="service-element">
+            <img class="service-element_image" src="images/services/predmetnaya.jpg" alt="">
+            <div class="service-element_title-wrapper">
+                <h3>
+                    <a href=""  class="service-element_title">Предметная <br>
+                        фотосъЁмка</a>
+                </h3>
+            </div>
+            <div class="service-element_paragraph-wrapper">
+                <p class="service-element_options">широкий <br>диапазон резкости</p>
+                <p class="service-element_paragraph">профессиональная <br>
+                    фотосъёмка для бизнеса</p>
+            </div>
+
+        </div>
+    </div>
+
 </section>
 <section class="gallery">
     <h1>Пример наших работы:</h1>

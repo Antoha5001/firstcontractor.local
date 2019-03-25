@@ -4,6 +4,8 @@
 }
 .top-slider{
   position: relative;
+  overflow: hidden;
+  height: 440px;
 
 }
 .top-slider .top-slider_element{
@@ -117,6 +119,8 @@
   width: 100%;
 }
 .top-slider__title{
+  font-family: 'Qanelas-web';
+  font-weight: 800;
   font-size: 33px;
   line-height: 1.2;
   color: white;
