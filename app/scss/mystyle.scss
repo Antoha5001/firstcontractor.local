@@ -14,7 +14,7 @@
 //@import "blocs/top_banner_old";
 
 @import "blocs/service";
-@import "shtamps";
+@import "pages/shtamps";
 @import "_scroller";
 @import "_tingle.min";
 @import "_modal";
@@ -23,6 +23,7 @@
 @import "blocs/development";
 @import "pages/big-image";
 @import "pages/banner_fullstack";
+@import "pages/production-property";
 @import "footer/map-section";
 
 
@@ -189,11 +190,6 @@ h5 {
   ol {
     list-style: lower-latin;
   }
-  h2 {
-    color: $red;
-    font-size: 1.5rem;
-    line-height: 1.4;
-  }
 }
 
 .base-block_news {
@@ -287,6 +283,15 @@ h5 {
 
 .content-box {
   padding: 0 0 40px;
+  p, ul{
+    font-size: 18px;
+  }
+
+  h2 {
+    color: $red;
+    font-size: 1.5rem;
+    line-height: 1.4;
+  }
 }
 
 .header-box > .content {
@@ -896,6 +901,7 @@ div.pagination {
   margin: 20px auto 50px;
   display: block;
   color: $red;
+  text-transform: uppercase;
   @media (max-width: $planshet) {
     text-align: center;
   }

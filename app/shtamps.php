@@ -20,9 +20,9 @@ include('includes/head.php');
 		</div>
 	</section>
 	<section class="content-box">
-		<div class="wrapper">
+		<div class="container">
 			<div class="row">
-				<div class="col col-lg-12 base-block">
+				<div class="col-12 base-block">
 					<h1 class="zagolovok">Заголовок</h1>
 					<p>Изображения в векторном формате .svg. Вы можете сохранить их, и использовать для разработки
 						макета.</p>

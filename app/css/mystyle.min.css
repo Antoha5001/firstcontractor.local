@@ -83,6 +83,11 @@ blockquote, q {
   .wrap_my__content {
     padding: 0 15px; } }
 
+.flex-block {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; }
+
 /*$magenta: #de3169;*/
 @font-face {
   font-family: "Fira-Sans-web";
@@ -9438,6 +9443,45 @@ section.big-image-box {
   .slick__img-container {
     display: none; } }
 
+.production-property_image {
+  width: 40%;
+  position: relative;
+  z-index: 1;
+  align-self: flex-start; }
+  .production-property_image img {
+    width: 100%;
+    display: block;
+    position: relative;
+    z-index: 1; }
+  .production-property_image:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border: 10px solid #FFB1AA;
+    top: 20px;
+    left: 20px;
+    position: absolute;
+    z-index: 0; }
+
+.production-property_text-block {
+  text-align: left;
+  width: 54%;
+  font-size: 18px; }
+  .production-property_text-block .production-property_paragraph {
+    padding: 0;
+    margin: 0; }
+    .production-property_text-block .production-property_paragraph span {
+      font-weight: 800; }
+  .production-property_text-block .production-property_footnote {
+    font-size: 16px; }
+
+.production-property_icons {
+  margin-top: 10px; }
+  .production-property_icons img {
+    width: 7%;
+    display: inline-block;
+    margin-right: 15px; }
+
 .section-map_container {
   height: 500px;
   position: relative;
@@ -9648,10 +9692,6 @@ h5 {
     list-style: disc; }
   .base-block ol {
     list-style: lower-latin; }
-  .base-block h2 {
-    color: #d72615;
-    font-size: 1.5rem;
-    line-height: 1.4; }
 
 .base-block_news {
   margin-top: 65px;
@@ -9734,6 +9774,12 @@ h5 {
 
 .content-box {
   padding: 0 0 40px; }
+  .content-box p, .content-box ul {
+    font-size: 18px; }
+  .content-box h2 {
+    color: #d72615;
+    font-size: 1.5rem;
+    line-height: 1.4; }
 
 @media (max-width: 575px) {
   .header-box > .content {
@@ -10257,7 +10303,8 @@ div.pagination {
   text-align: center;
   margin: 20px auto 50px;
   display: block;
-  color: #d72615; }
+  color: #d72615;
+  text-transform: uppercase; }
   @media (max-width: 991px) {
     .zagolovok {
       text-align: center; } }

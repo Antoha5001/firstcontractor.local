@@ -29,7 +29,11 @@
 	  padding: 0 15px;
   }
 }
-
+.flex-block{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
 
 $phone: 575px;
 $landPhone: 767px;
@@ -58,6 +62,7 @@ $black: #333333;
 $dark-black: #222222;
 $red: rgb(215, 38, 21);
 $light-red: #FF8E83;
+$white-red: #FFB1AA;
 
 $transition: opacity 1s;
 /*$magenta: #de3169;*/

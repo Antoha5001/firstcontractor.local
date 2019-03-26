@@ -2,21 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ac7a96fe-d604-4866-90cb-7eea572bf5a3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/scss/blocs/service.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/production.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/scss/pages/production-property.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/css/mystyle.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/app/css/mystyle.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/_big-image.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/pages/_big-image.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/libs/_fonts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/_menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/header/_menu.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/_normalize.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/libs/_normalize.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/blocs/_breadcrumb.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/header/_breadcrumb.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/blocs/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/header/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/blocs/_map-section.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/footer/_map-section.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/scss/blocs/top_banner_1920.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/header/top_banner_1920.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/scss/_shtamps.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/pages/_shtamps.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/scss/core/_library.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/core/_library.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/scss/mystyle.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/scss/mystyle.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/shtamps.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/shtamps.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,23 +18,23 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.7171315">
+    <splitter split-orientation="horizontal" split-proportion="0.5542249">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/gulpfile.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1309">
-                  <caret line="77" column="34" selection-start-line="77" selection-start-column="34" selection-end-line="77" selection-end-column="34" />
+                <state relative-caret-position="1748">
+                  <caret line="76" column="34" selection-start-line="76" selection-start-column="34" selection-end-line="76" selection-end-column="34" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/index.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="531">
-                  <caret line="190" column="10" lean-forward="true" selection-start-line="155" selection-end-line="190" selection-end-column="10" />
+                <state relative-caret-position="208">
+                  <caret line="197" column="16" selection-start-line="197" selection-start-column="16" selection-end-line="197" selection-end-column="16" />
                 </state>
               </provider>
             </entry>
@@ -49,7 +42,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/includes/head.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="221">
+                <state relative-caret-position="299">
                   <caret line="13" column="75" selection-start-line="13" selection-start-column="75" selection-end-line="13" selection-end-column="75" />
                 </state>
               </provider>
@@ -58,7 +51,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/includes/banner_1920.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="476">
+                <state relative-caret-position="644">
                   <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
                 </state>
               </provider>
@@ -67,8 +60,34 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/full-stack.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="850">
-                  <caret line="50" selection-start-line="50" selection-end-line="50" />
+                <state relative-caret-position="46">
+                  <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+                  <folding>
+                    <element signature="e#2998#3023#0#HTML" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/production.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="207">
+                  <caret line="31" column="64" selection-start-line="31" selection-start-column="64" selection-end-line="31" selection-end-column="64" />
+                  <folding>
+                    <element signature="e#4732#4809#0#HTML" expanded="true" />
+                    <element signature="e#4841#4899#0#HTML" expanded="true" />
+                    <element signature="e#4974#4996#0#HTML" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/shtamps.php">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="437">
+                  <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
                 </state>
               </provider>
             </entry>
@@ -76,7 +95,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/contacts.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="952">
+                <state relative-caret-position="1288">
                   <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
                 </state>
               </provider>
@@ -85,7 +104,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/includes/footer.php">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="714">
+                <state relative-caret-position="966">
                   <caret line="42" column="124" selection-start-line="42" selection-start-column="124" selection-end-line="42" selection-end-column="124" />
                 </state>
               </provider>
@@ -95,20 +114,20 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/app/scss/mystyle.scss">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/app/scss/pages/production-property.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="212">
-                  <caret line="161" column="13" lean-forward="true" selection-start-line="161" selection-start-column="13" selection-end-line="161" selection-end-column="13" />
+                <state relative-caret-position="483">
+                  <caret line="42" column="20" lean-forward="true" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/scss/blocs/service.scss">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/app/scss/mystyle.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="68">
-                  <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+                <state relative-caret-position="319">
+                  <caret line="285" column="8" lean-forward="true" selection-start-line="285" selection-start-column="8" selection-end-line="285" selection-end-column="8" />
                 </state>
               </provider>
             </entry>
@@ -116,17 +135,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/scss/libs/_fonts.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="238">
+                <state relative-caret-position="322">
                   <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/scss/header/top_banner_1920.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="459">
-                  <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
                 </state>
               </provider>
             </entry>
@@ -134,7 +144,7 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/scss/footer/_map-section.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1173">
+                <state relative-caret-position="1587">
                   <caret line="69" column="38" selection-start-line="69" selection-start-column="38" selection-end-line="69" selection-end-column="38" />
                 </state>
               </provider>
@@ -143,8 +153,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/scss/core/_library.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-404">
-                  <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+                <state relative-caret-position="437">
+                  <caret line="64" column="20" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
                 </state>
               </provider>
             </entry>
@@ -178,6 +188,8 @@
       <find>za</find>
       <find>foo</find>
       <find>ju</find>
+      <find>zagolo</find>
+      <find>conte</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -207,16 +219,19 @@
         <option value="$PROJECT_DIR$/app/scss/libs/_fonts.scss" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/app/scss/header/top_banner_1920.scss" />
-        <option value="$PROJECT_DIR$/app/scss/core/_library.scss" />
         <option value="$PROJECT_DIR$/app/scss/blocs/service.scss" />
-        <option value="$PROJECT_DIR$/app/scss/mystyle.scss" />
         <option value="$PROJECT_DIR$/app/index.php" />
+        <option value="$PROJECT_DIR$/app/scss/core/_library.scss" />
+        <option value="$PROJECT_DIR$/app/shtamps.php" />
+        <option value="$PROJECT_DIR$/app/scss/pages/production-property.scss" />
+        <option value="$PROJECT_DIR$/app/production.php" />
+        <option value="$PROJECT_DIR$/app/scss/mystyle.scss" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="34" />
-    <option name="y" value="60" />
+    <option name="x" value="35" />
+    <option name="y" value="31" />
     <option name="width" value="1857" />
     <option name="height" value="954" />
   </component>
@@ -228,7 +243,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -252,13 +266,6 @@
               <item name="firstcontractor.local" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="scss" type="462c0819:PsiDirectoryNode" />
-              <item name="blocs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="firstcontractor.local" type="b2602c69:ProjectViewProjectNode" />
-              <item name="firstcontractor.local" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="scss" type="462c0819:PsiDirectoryNode" />
               <item name="core" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -268,16 +275,24 @@
               <item name="scss" type="462c0819:PsiDirectoryNode" />
               <item name="libs" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="firstcontractor.local" type="b2602c69:ProjectViewProjectNode" />
+              <item name="firstcontractor.local" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="scss" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/script" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -285,17 +300,18 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\OpenServer529\OSPanel\domains\firstcontractor.local\app" />
+      <recent name="E:\OpenServer529\OSPanel\domains\firstcontractor.local\app\script" />
+      <recent name="E:\OpenServer529\OSPanel\domains\firstcontractor.local\app\scss\blocs" />
+      <recent name="E:\OpenServer529\OSPanel\domains\firstcontractor.local\app\includes" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\OpenServer529\OSPanel\domains\firstcontractor.local\app\scss\pages" />
       <recent name="C:\OpenServer2\domains\firstcontractor.local\app\scss\libs" />
       <recent name="C:\OpenServer2\domains\firstcontractor.local\app\scss\pages" />
       <recent name="C:\OpenServer2\domains\firstcontractor.local\app\scss\footer" />
       <recent name="C:\OpenServer2\domains\firstcontractor.local\app\scss\header" />
-      <recent name="E:\OpenServer529\OSPanel\domains\firstcontractor.local\app\scss\core" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\OpenServer529\OSPanel\domains\firstcontractor.local\app\script" />
-      <recent name="E:\OpenServer529\OSPanel\domains\firstcontractor.local\app\scss\blocs" />
-      <recent name="E:\OpenServer529\OSPanel\domains\firstcontractor.local\app\includes" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -341,17 +357,18 @@
       <workItem from="1553064846739" duration="671000" />
       <workItem from="1553326729956" duration="6876000" />
       <workItem from="1553420608901" duration="8459000" />
+      <workItem from="1553590363604" duration="11600000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70461000" />
+    <option name="totallyTimeSpent" value="82061000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="34" y="60" width="1857" height="954" extended-state="0" />
+    <frame x="35" y="31" width="1857" height="954" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16193657" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.163606" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Gulp" order="2" side_tool="true" />
       <window_info id="npm" order="3" side_tool="true" />
@@ -367,7 +384,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50479746" side_tool="true" weight="0.20489977" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.49520257" visible="true" weight="0.17174178" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49520257" visible="true" weight="0.1716515" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -512,92 +529,121 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1309">
-          <caret line="77" column="34" selection-start-line="77" selection-start-column="34" selection-end-line="77" selection-end-column="34" />
+        <state relative-caret-position="1748">
+          <caret line="76" column="34" selection-start-line="76" selection-start-column="34" selection-end-line="76" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/includes/head.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
+        <state relative-caret-position="299">
           <caret line="13" column="75" selection-start-line="13" selection-start-column="75" selection-end-line="13" selection-end-column="75" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/includes/banner_1920.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
+        <state relative-caret-position="644">
           <caret line="28" column="14" selection-start-line="28" selection-start-column="14" selection-end-line="28" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/full-stack.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="850">
-          <caret line="50" selection-start-line="50" selection-end-line="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/contacts.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="952">
+        <state relative-caret-position="1288">
           <caret line="56" column="13" selection-start-line="56" selection-start-column="13" selection-end-line="56" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/includes/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
+        <state relative-caret-position="966">
           <caret line="42" column="124" selection-start-line="42" selection-start-column="124" selection-end-line="42" selection-end-column="124" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/libs/_fonts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scss/header/top_banner_1920.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
+        <state relative-caret-position="621">
           <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scss/footer/_map-section.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1173">
+        <state relative-caret-position="1587">
           <caret line="69" column="38" selection-start-line="69" selection-start-column="38" selection-end-line="69" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="197" column="16" selection-start-line="197" selection-start-column="16" selection-end-line="197" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/full-stack.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+          <folding>
+            <element signature="e#2998#3023#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scss/blocs/service.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
-          <caret line="19" column="3" lean-forward="true" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/scss/libs/_fonts.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scss/core/_library.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-404">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="437">
+          <caret line="64" column="20" selection-start-line="64" selection-start-column="20" selection-end-line="64" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/shtamps.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="19" column="14" lean-forward="true" selection-start-line="19" selection-start-column="14" selection-end-line="19" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scss/pages/production-property.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="42" column="20" lean-forward="true" selection-start-line="42" selection-start-column="20" selection-end-line="42" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/production.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="31" column="64" selection-start-line="31" selection-start-column="64" selection-end-line="31" selection-end-column="64" />
+          <folding>
+            <element signature="e#4732#4809#0#HTML" expanded="true" />
+            <element signature="e#4841#4899#0#HTML" expanded="true" />
+            <element signature="e#4974#4996#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scss/mystyle.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="161" column="13" lean-forward="true" selection-start-line="161" selection-start-column="13" selection-end-line="161" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="531">
-          <caret line="190" column="10" lean-forward="true" selection-start-line="155" selection-end-line="190" selection-end-column="10" />
+        <state relative-caret-position="319">
+          <caret line="285" column="8" lean-forward="true" selection-start-line="285" selection-start-column="8" selection-end-line="285" selection-end-column="8" />
         </state>
       </provider>
     </entry>
