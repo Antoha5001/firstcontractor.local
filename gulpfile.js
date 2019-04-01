@@ -6,6 +6,7 @@ const gulp = require('gulp'),
 	concat = require('gulp-concat'),
 	uglify = require('gulp-uglify'),
 	cssnano = require('gulp-cssnano'),
+    cleanCSS = require('gulp-clean-css'),
 	rename = require('gulp-rename'),
 	del = require('del'),
 	imagemin = require('gulp-imagemin'),
@@ -48,6 +49,7 @@ function styles(){
 	return gulp.src('./app/scss/mystyle.scss')
 	.pipe(sass())
 	.pipe(rename({suffix: '.min'}))
+        .pipe(cleanCSS())
 	.pipe(gulp.dest('app/css'))
 		.pipe(browserSync.stream());
 }

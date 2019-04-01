@@ -293,6 +293,13 @@ h5 {
     line-height: 1.4;
   }
 }
+@media  (max-width: 1199px){
+  .content-box {
+    p, ul{
+      font-size: 16px;
+    }
+  }
+}
 
 .header-box > .content {
   @media (max-width: $phone) {
